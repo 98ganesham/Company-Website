@@ -1,5 +1,4 @@
-import Team from "./Pages/Team/Team"
-
+import  { SiOpenai } from 'react-icons/si';
 
 
 
@@ -13,8 +12,8 @@ export const links = [
         path: '/about'
     },
     {
-        name: "Team",
-        path: '/team'
+        name:"Team",
+        path:'/team'
     },
     {
         name: "Contact",
@@ -28,36 +27,43 @@ export const links = [
 
 
 
-// export const programs = [
-//     {
-//         id: 1,
-//         icon: <SiOpenaigym/>,
-//         title: "Program One",
-//         info: "This is the day that the lord has made. We will rejoice!",
-//         path: "/programs/111"
-//     },
-//     {
-//         id: 2,
-//         icon: <SiOpenaigym/>,
-//         title: "Program Two",
-//         info: "This is the day that the lord has made. We will rejoice!",
-//         path: "/programs/222"
-//     },
-//     {
-//         id: 3,
-//         icon: <SiOpenaigym/>,
-//         title: "Program Three",
-//         info: "This is the day that the lord has made. We will rejoice!",
-//         path: "/programs/333"
-//     },
-//     {
-//         id: 4,
-//         icon: <SiOpenaigym/>,
-//         title: "Program Four",
-//         info: "This is the day that the lord has made. We will rejoice!",
-//         path: "/programs/444"
-//     }
-// ]
+export const programs = [
+    {
+        id: 1,
+        icon: {SiOpenai},
+        title: "Program One",
+        info: "Making websites that work for you!",
+        path: "/programs/111"
+    },
+    {
+        id: 2,
+        icon: {SiOpenai},
+        title: "Program Two",
+        info: "Making websites that work for you!",
+        path: "/programs/222"
+    },
+    {
+        id: 3,
+        icon: {SiOpenai},
+        title: "Program Three",
+        info: "Making websites that work for you!",
+        path: "/programs/333"
+    },
+    {
+        id: 4,
+        icon: {SiOpenai},
+        title: "Program Four",
+        info: "Making websites that work for you!",
+        path: "/programs/444"
+    },
+    {
+        id: 5,
+        icon: {SiOpenai},
+        title: "Program Five",
+        info:"Making websites that work for you!",
+        path: "/programs/555"
+    }
+]
 
 
 
@@ -66,32 +72,38 @@ export const links = [
 
 
 
-// export const values = [
-//     {
-//         id: 1,
-//         icon: <SiOpenaigym/>,
-//         title: "Value One",
-//         desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
-//     },
-//     {
-//         id: 2,
-//         icon: <SiOpenaigym/>,
-//         title: "Value Two",
-//         desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
-//     },
-//     {
-//         id: 3,
-//         icon: <SiOpenaigym/>,
-//         title: "Value Three",
-//         desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
-//     },
-//     {
-//         id: 4,
-//         icon: <SiOpenaigym/>,
-//         title: "Value Four",
-//         desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum."
-//     }
-// ]
+export const values = [
+    {
+        id: 1,
+        icon: {SiOpenai},
+        title: "Value One",
+        desc: "Making websites that work for you!"
+    },
+    {
+        id: 2,
+        icon: {SiOpenai},
+        title: "Value Two",
+        desc: "Making websites that work for you!"
+    },
+    {
+        id: 3,
+        icon: {SiOpenai},
+        title: "Value Three",
+        desc: "Making websites that work for you!"
+    },
+    {
+        id: 4,
+        icon: {SiOpenai},
+        title: "Value Four",
+        desc: "Making websites that work for you!"
+    },
+    {
+        id:5,
+        icon:{SiOpenai},
+        title: "Value Five",
+        desc: "Making websites that work for you!"
+    }
+]
 
 
 
@@ -259,49 +271,49 @@ export const links = [
 
 
 
-const Team1 = import ('../src/Components/images/Team1.jpg')
-// const Team2 = import ('./images/team2.jpg')
-// const Team3 = import ('./images/team3.jpg')
-const Team4 = import('../src/Components/images/Team4.jpg')
-// const Team5 = import ('./images/team5.jpg')
+const TeamMember1 = import('./Components/images/Team1.jpg');
+// const TeamMember2 = import('./images/trainer2.jpg')
+// const TeamMember3 = import('./images/trainer3.jpg')
+const TeamMember4 = import('./Components/images/Team4.jpg')
+// const TeamMember5 = import ('./Components/images/Team4.jpg')
 
 
 
 export const trainers = [
     {
         id: 1,
-        image: Team1,
-        name: 'MohanLar',
-        job: 'Senior Web Developer',
-        socials: ['https://github.com/mohanlar96']
+        image: TeamMember1,
+        name: 'John Doe',
+        job: 'Aerobic Trainer',
+        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     },
     // {
     //     id: 2,
-    //     image: Team2,
-    //     name: 'Soe Phyu Phyu Htun',
-    //     job: 'Junior Web Developer',
-    //     socials: ['https://github.com/SoePhyu99']
+    //     image: TeamMember2,
+    //     name: 'Daniel vinyo',
+    //     job: 'Speed Trainer',
+    //     socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     // },
     // {
     //     id: 3,
-    //     image: Team3,
-    //     name: 'Thihan Winhtet',
-    //     job: 'Junior Web Developer',
-    //     socials: ['https://github.com/ThihanWinhtet']
+    //     image: Trainer3,
+    //     name: 'Edem Quist',
+    //     job: 'Flexibility Trainer',
+    //     socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     // },
     {
         id: 4,
-        image: Team4,
-        name: 'Aung Phyo Thant',
-        job: 'Junior Web Developer',
-        socials: ['https://github.com/AungPhyoThant224']
+        image: TeamMember4,
+        name: 'Shatta Wale',
+        job: 'Body Composition Trainer',
+        socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     },
     // {
     //     id: 5,
-    //     image: Team5,
-    //     name: 'Chaw Be Lar',
-    //     job: 'Junior Web Developer',
-    //     socials: ['https://github.com/98ganesham']
+    //     image: Trainer5,
+    //     name: 'Diana Ayi',
+    //     job: 'Circuit Trainer',
+    //     socials: ['https://instagram.com/', 'https://twitter.com/', 'https://facebook.com/', 'https://linkedin.com/']
     // },
-    
+   
 ]

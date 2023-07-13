@@ -1,0 +1,125 @@
+.main__header {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    margin-top: 3rem;
+}
+
+.main__header-container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.main__hader-left {
+    margin-left: -3rem;
+
+}
+
+.main__h4 {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--color-primary);
+}
+
+.main__header-left p {
+    margin: 1rem 0 3.5rem;
+    font-size: 1.5rem;
+}
+
+.image {
+
+    position: relative;
+    margin-top: 3rem;
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
+
+.main__header-right {
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+.main__header-circle {
+    width: 20rem;
+    height: 20rem;
+    margin-top: 2rem;
+    border-radius: 50%;
+    margin-left: -10rem;
+    background: linear-gradient(75deg, #fff, transparent);
+    position: absolute;
+    transition: transform 1s;
+}
+
+.main__header-circle:hover {
+    transform: translate(50%, 50%) scale(1);
+}
+
+.language__image {
+    position: relative;
+    margin-top: 3rem;
+    display: block;
+    object-fit: cover;
+    width: 80%;
+    background: var(--color-gray-200);
+    border-radius: 50%;
+    transition: transform 1s;
+}
+
+.language__image:hover {
+    transform: translate(50%, 50%) scale(1);
+}
+
+.p {
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width:1024px) {
+    .main__header {
+        height: fit-content;
+        margin-top: -5rem;
+        padding: 12rem 0;
+    }
+
+    .main__header-container {
+        gap: 0;
+    }
+
+    .main__header-circle {
+        width: 10rem;
+        margin-left: 2rem;
+        height: 10rem;
+    }
+
+    .language__image {
+        margin-top: -5rem;
+        margin-left: 2rem;
+
+    }
+    .main__header-left p{
+        font-size: 1.2rem;
+        margin-left: -1rem;
+        text-align: center;
+        
+    }
+    .p{
+        font-size: 1.2rem;
+        margin-left:-1rem;
+        text-align: center;
+        margin-bottom:1rem;
+    }
+
+
+    .btn {
+        margin-top: 5rem;
+    }
+
+}

@@ -1,5 +1,5 @@
 *, *::before, *::after{
-    margin: 0;
+    margin:0;
     padding: 0;
     border: 0;
     outline: 0;
@@ -21,6 +21,7 @@
     --color-gray-400: hsl(var(--gray-hue), 16%, 41%);
     --color-gray-500: hsl(var(--gray-hue), 44%, 25%);
     --color-gray-600: hsl(var(--gray-hue), 48%, 15%);
+    --color-white: hsl(var(--white-hue), 0%, 100% );
 
     --container-width-lg: 80%;
     --container-width-md: 90%;
@@ -57,6 +58,53 @@ a{
 img{
     display: block;
     object-fit: cover;
-    width: 100;
+    width: 100%;
 
+}
+
+
+.btn {
+    color: var(--color-gray-100);
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0.9rem 2rem;
+    background: var(--color-primary);
+    border-radius: 1.5rem;
+    transition: var(--transition);
+}
+.btn:hover{
+   background: #cccc;
+   color: var(--color-secondary);
+}
+.btn.lg{
+    padding: 1.2rem 3rem;
+    border-radius: 2rem;
+    font-size: 1.1rem;
+  
+}
+.btn.sm{
+    padding: 0.4rem 1.2rem;
+    font-size: 0.9rem;
+}
+.btn.sm:hover{
+    background:var(--color-gray-100) ;
+}
+@media screen and (max-width:1024px ){
+    .container{
+        width: var(--container-width-md);
+        
+    }
+    h1{
+        font-size: 2rem;
+
+    }
+    h2{
+        font-size: 1.6rem;
+    }
+}
+@media screen and (max-width:600px ){
+    h1{
+        font-size: 2.2rem;
+        line-height: 1.3px;
+    }
 }

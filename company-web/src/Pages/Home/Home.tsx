@@ -1,10 +1,16 @@
-import Hero from "../../Components/Hero"
+import MainHeader from '../../Components/MainHeader';
 
+
+
+import './home.css';
 
 const Home = () => {
   return (
-   <div>Hello World</div>
+    <>
+   <MainHeader/>
+   
+   </>
   );
 }
 
-export default Home
+export default Home;
