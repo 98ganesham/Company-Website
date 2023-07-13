@@ -39,7 +39,7 @@ const MainHeader = () => {
 
           <img className="language__image" src={language} alt="language" />
 
-          <Link to="/about" className="btn">
+          <Link to="/about" className="btn lg">
             About Us
           </Link>
         </div>

@@ -1,7 +1,11 @@
 
 const Team = () => {
   return (
-    <div>Meet Our Teams</div>
+    <>
+    <div className="team__header">
+      <h2>Meet Our Team</h2>
+    </div>
+    </>
   )
 }
 

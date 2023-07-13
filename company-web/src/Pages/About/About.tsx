@@ -23,9 +23,13 @@ const About = () => {
         
       </div>
       <div>
-          <Link to="/team" className="btn lg">
+      <Link to="/" className="btn lg btn__home" >
+        Home
+       </Link>
+        <Link to="/team" className="btn lg btn__team">
             Team
-          </Link>
+            </Link>
+          
         </div>
     </div>
   );
