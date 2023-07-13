@@ -1,23 +1,32 @@
 import { Link } from "react-router-dom";
 import "./about.css";
+import image from '../../Components/images/web 1.jpg';
 
 const About = () => {
   return (
     <div className="about">
+      <img src={image} alt="web develope image"  className="about__image"/>
       <div className="about__header-left">
-        <h2 className="about__h2">About Us </h2>
+        <h3 className="about__h3">About Us </h3>
         <p className="p">
-          Welcome to VaroonValley Company. Its A Professional Software & Web
-          Developing Company Founded in May 2023.
+          Hi, We are VaroonValley Company Web Developers. We design & build user
+          Interfaces.
         </p>
-        <h4 className="about__h4">Website Development</h4>
 
-        <div >
-          <Link to="/team" className="btn__lg">
+        <h3 className="about__h3">Website Development</h3>
+        <p className="p">
+          Our Comprehensive website development services encompass all aspects
+          of technical and creative process which are necessary to develop a
+          successful web sites.
+        </p>
+
+        
+      </div>
+      <div>
+          <Link to="/team" className="btn lg">
             Team
           </Link>
         </div>
-      </div>
     </div>
   );
 };

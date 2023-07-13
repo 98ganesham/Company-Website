@@ -12,8 +12,8 @@ const MainHeader = () => {
           <div className="main__header-left">
             <div className="main__head">
               <h4 className="main__h4">
-                Hi, We are VaroonValley Company Web Developers. We design &
-                build user Interfaces.
+               Welcome to VaroonValley Company. Its A Professional Software & Web
+          Developing Company Founded in May 2023.
               </h4>
             </div>
             <p className="main__header-left p">
