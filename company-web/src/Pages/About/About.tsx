@@ -1,36 +1,34 @@
-import { Link } from "react-router-dom";
+import image from "../../Components/images/web 1.jpg";
+import "../../index.css";
 import "./about.css";
-import image from '../../Components/images/web 1.jpg';
 
 const About = () => {
   return (
     <div className="about">
-      <img src={image} alt="web develope image"  className="about__image"/>
-      <div className="about__header-left">
-        <h3 className="about__h3">About Us </h3>
-        <p className="p">
-          Hi, We are VaroonValley Company Web Developers. We design & build user
-          Interfaces.
-        </p>
-
-        <h3 className="about__h3">Website Development</h3>
-        <p className="p">
-          Our Comprehensive website development services encompass all aspects
-          of technical and creative process which are necessary to develop a
-          successful web sites.
-        </p>
-
-        
+      <div className="about__image">
+        <img src={image} alt="web develope image" className="image" />
       </div>
-      <div>
-      <Link to="/" className="btn lg btn__home" >
-        Home
-       </Link>
-        <Link to="/team" className="btn lg btn__team">
-            Team
-            </Link>
-          
+      <div className="about__header">
+        <div className="about__company">
+          <div className="h3">
+            <h3 className="about__h3">About Us </h3>
+          </div>
+
+          <p className="p">
+            Hi, We are VaroonValley Company Web Developers. We design & build
+            user Interfaces.
+          </p>
         </div>
+
+        <div className="about__website">
+          <h3 className="web__h3">Website Development</h3>
+          <p className="web__p">
+            Our Comprehensive website development services encompass all aspects
+            of technical and creative process which are necessary to develop a
+            successful web sites.
+          </p>
+        </div>
+      </div>
     </div>
   );
 };

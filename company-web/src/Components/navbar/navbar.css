@@ -38,7 +38,6 @@ nav{
 .nav__links {
     display: flex;
     gap: 3.5rem;
-    
     align-items: center;
 }
 .nav__links a{
@@ -106,8 +105,8 @@ nav{
         perspective: 400px;
     }
     .company__logo{
-        font-size: 3rem;
-        opacity:1 ;
+        font-size: 1.7rem;
+        opacity:.8 ;
 
     }
     .active-nav, .active-nav::after{

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 import "..//Pages/Home/home.css";
 import "../index.css";
 import Main from "../Components/images/Main.png";
@@ -25,9 +25,9 @@ const MainHeader = () => {
           </div>
           <div className="main__header-right">
             <div className="main__header-circle">
-              <div className="main__header-image">
+              
                 <img src={Main} alt="Main Header Image" className="image" />
-              </div>
+              
             </div>
           </div>
           <p className="p">
@@ -39,9 +39,7 @@ const MainHeader = () => {
 
           <img className="language__image" src={language} alt="language" />
 
-          <Link to="/about" className="btn lg">
-            About Us
-          </Link>
+          
         </div>
       </header>
     </>
