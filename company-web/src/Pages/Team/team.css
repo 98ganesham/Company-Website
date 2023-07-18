@@ -1,24 +1,26 @@
-.section-head{
+.section-head {
     padding: 70px 0;
-   
-   
-}
-.section__title{
-    text-align: center;
-    color:var(--color-primary);
-    
-}
-.col-sm-6{
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-    gap: 2.5rem;
+
+
 }
 
-.team__ceo{
-    width: 50%;
-     background-color:#ccc;
+.section__title {
     text-align: center;
-    margin:15px 0;
+    color: var(--color-primary);
+
+}
+
+.col-sm-6 {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 2rem;
+}
+
+.team__ceo {
+    width: 60%;
+    background-color: #ccc;
+    text-align: center;
+    margin: 15px 0;
     padding: 50px 20px 40px 20px;
     border-radius: 8px 8px;
     -webkit-transition: all 0.50s ease-in-out;
@@ -28,12 +30,12 @@
     transition: all 0.50s ease-in-out;
 }
 
-.team__ceo:hover{
+.team__ceo:hover {
     margin-bottom: -1rem;
-    
+
 }
 
-.team__ceo h3{
+.team__ceo h3 {
     margin: 20px 0 1px !important;
     color: var(--color-gray-500);
     font-weight: 500;
@@ -42,39 +44,46 @@
     white-space: wrap;
     -webkit-transition: all 0.50s ease-in-out;
     -moz-transition: all 0.50s ease-in-out;
-    transition: color .5s ;
-    
+    transition: color .5s;
+
 }
-.team__ceo-img{
+
+.team__ceo-img {
     border-radius: 4px;
 }
-.team__ceo h3:hover{
+
+.team__ceo h3:hover {
     color: var(--color-primary);
 }
-.team__ceo-info{
+
+.team__ceo-info {
     font-weight: 200;
     color: #000;
     font-size: 1rem;
     transition: color .5s;
 }
-.team__ceo-info:hover{
+
+.team__ceo-info:hover {
     color: var(--color-primary);
 }
-.ceo__github{
+
+.ceo__github {
     width: 20px;
     margin-top: -3.2rem;
     margin-left: -1rem;
     border-radius: 50%;
     transition: background-color 0.50s;
 }
-.ceo__github:hover{
+
+.ceo__github:hover {
     background-color: var(--color-gray-200);
 }
-.team__coo{
-    width: 50%;
-    background-color:#ccc;
+
+.team__coo {
+    width: 60%;
+    background-color: #ccc;
     text-align: start;
-    margin:15px 0;
+    margin: 15px 0;
     overflow: hidden;
     padding: 50px 20px 40px 20px;
     border-radius: 8px 8px;
@@ -84,55 +93,60 @@
     -o-transition: all 0.50s ease-in-out;
     transition: all 0.50s ease-in-out;
 }
-.team__coo:hover{
+
+.team__coo:hover {
     margin-bottom: -1rem;
-    
+
 }
 
-.team__coo h3{
+.team__coo h3 {
     margin: 20px 0 1px !important;
     color: var(--color-gray-500);
     font-weight: 500;
     font-size: 1.2rem;
     -webkit-transition: all 0.50s ease-in-out;
     -moz-transition: all 0.50s ease-in-out;
-    transition: color .5s ;
+    transition: color .5s;
 }
 
-.team__coo h3:hover{
+.team__coo h3:hover {
     color: var(--color-primary);
-    
+
 }
-.team__coo-info{
+
+.team__coo-info {
     font-weight: 200;
     font-size: 1rem;
     color: #000;
     text-align: center;
-    transition: color .5s ;
+    transition: color .5s;
 }
-.team__coo-info:hover{
+
+.team__coo-info:hover {
     color: var(--color-primary);
 }
-.team__coo-img{
+
+.team__coo-img {
     border-radius: 4px;
 }
-.coo__github{
+
+.coo__github {
     width: 20px;
     margin-top: -3.2rem;
     margin-left: -1rem;
     border-radius: 50%;
     transition: background-color 0.50s;
 }
-.coo__github:hover{
+
+.coo__github:hover {
     background-color: var(--color-gray-200);
 }
 
-.team__member1{
-    width: 50%;
-   
-    background-color:#ccc;
+.team__member1 {
+    width: 60%;
+    background-color: #ccc;
     text-align: center;
-    margin:15px 0;
+    margin: 15px 0;
     overflow: hidden;
     padding: 50px 20px 40px 20px;
     border-radius: 8px 8px;
@@ -142,53 +156,60 @@
     -o-transition: all 0.50s ease-in-out;
     transition: all 0.50s ease-in-out;
 }
-.team__member1:hover{
+
+.team__member1:hover {
     margin-bottom: -1rem;
 }
-.team__member1 h3{
+
+.team__member1 h3 {
     margin: 20px 0 1px !important;
     color: var(--color-gray-500);
     font-weight: 400;
     font-size: 1.5rem;
     -webkit-transition: all 0.50s ease-in-out;
     -moz-transition: all 0.50s ease-in-out;
-    transition: color .5s ;
+    transition: color .5s;
 }
 
-.team__member1 h3:hover{
+.team__member1 h3:hover {
     color: var(--color-primary);
-    
+
 }
-.team__member1-info{
+
+.team__member1-info {
     font-weight: 200;
     font-size: 1rem;
     color: #000;
     text-align: center;
-    transition: color .5s ;
+    transition: color .5s;
 }
-.team__member1-info:hover{
+
+.team__member1-info:hover {
     color: var(--color-primary);
 }
-.team__member1-img{
+
+.team__member1-img {
     border-radius: 4px;
 }
-.member1__github{
+
+.member1__github {
     width: 20px;
     margin-top: -3.2rem;
     margin-left: -1rem;
     border-radius: 50%;
     transition: background-color 0.50s;
 }
-.member1__github:hover{
+
+.member1__github:hover {
     background-color: var(--color-gray-200);
 }
 
-.team__member2{
-    width: 50%;
-    background-color:#ccc;
+.team__member2 {
+    width: 60%;
+    background-color: #ccc;
     overflow: hidden;
     text-align: center;
-    margin:15px 0;
+    margin: 15px 0;
     padding: 50px 20px 40px 20px;
     border-radius: 8px 8px;
     -webkit-transition: all 0.50s ease-in-out;
@@ -197,207 +218,408 @@
     -o-transition: all 0.50s ease-in-out;
     transition: all 0.50s ease-in-out;
 }
-.team__member2:hover{
-   margin-bottom: -1rem;
-}
-.team__member2 h3{
-    margin: 20px 0 1px !important;
-    color: var(--color-gray-500);
-    font-weight: 400;
-    font-size: 1.5rem;
-    -webkit-transition: all 0.50s ease-in-out;
-    -moz-transition: all 0.50s ease-in-out;
-    transition: color .5s ;
-}
 
-.team__member2 h3:hover{
-   color: var(--color-primary);
-    
-}
-.team__member2-info{
-    font-weight: 200;
-    font-size: 1rem;
-    color: #000;
-    text-align: center;
-    transition: color .5s ;
-}
-.team__member2-info:hover{
-    color: var(--color-primary);
-}
-.team__member2-img{
-    border-radius: 4px;
-}
-.member2__github{
-    width: 20px;
-    margin-top: -3.2rem;
-    margin-left: -1rem;
-    border-radius: 50%;
-    transition: background-color 0.50s;
-}
-.member2__github:hover{
-    background-color: var(--color-gray-200);
-}
-
-
-.team__member3{
-    width: 50%;
-    overflow: hidden;
-    background-color:#ccc;
-    text-align: center;
-    margin:15px 0;
-    padding: 50px 20px 40px 20px;
-    border-radius: 8px 8px;
-    -webkit-transition: all 0.50s ease-in-out;
-    -moz-transition: all 0.50s ease-in-out;
-    -ms-transition: all 0.50s ease-in-out;
-    -o-transition: all 0.50s ease-in-out;
-    transition: all 0.50s ease-in-out;
-}
-.team__member3:hover{
-   margin-bottom: -1rem;
-}
-.team__member3 h3{
-    margin: 20px 0 1px !important;
-    color: var(--color-gray-500);
-    font-weight: 400;
-    font-size: 1.5rem;
-    -webkit-transition: all 0.50s ease-in-out;
-    -moz-transition: all 0.50s ease-in-out;
-    transition: color .5s ;
-}
-
-.team__member3 h3:hover{
-    color: var(--color-primary);
-    
-}
-.team__member3-info{
-    font-weight: 200;
-    font-size: 1rem;
-    color: #000;
-    text-align: center;
-    transition: color .5s ;
-}
-.team__member3-info:hover{
-    color: var(--color-primary);
-}
-.team__member3-img{
-    border-radius: 4px;
-}
-.member3__github{
-    width: 20px;
-    margin-top: -3.2rem;
-    margin-left: -1rem;
-    border-radius: 50%;
-    transition: background-color 0.50s;
-}
-.member3__github:hover{
-    background-color: var(--color-gray-200);
-}
-
-.team__member4{
-    width: 50%;
-    background-color:#ccc;
-    overflow: hidden;
-    text-align: center;
-    margin:15px 0;
-    padding: 50px 20px 40px 20px;
-    border-radius: 8px 8px;
-    -webkit-transition: all 0.50s ease-in-out;
-    -moz-transition: all 0.50s ease-in-out;
-    -ms-transition: all 0.50s ease-in-out;
-    -o-transition: all 0.50s ease-in-out;
-    transition: all 0.50s ease-in-out;
-}
-.team__member4:hover{
+.team__member2:hover {
     margin-bottom: -1rem;
 }
-.team__member4 h3{
+
+.team__member2 h3 {
     margin: 20px 0 1px !important;
     color: var(--color-gray-500);
     font-weight: 400;
     font-size: 1.5rem;
     -webkit-transition: all 0.50s ease-in-out;
     -moz-transition: all 0.50s ease-in-out;
-    transition: color .5s ;
+    transition: color .5s;
 }
 
-.team__member4 h3:hover{
+.team__member2 h3:hover {
     color: var(--color-primary);
-    
+
 }
-.team__member4-info{
+
+.team__member2-info {
     font-weight: 200;
     font-size: 1rem;
     color: #000;
     text-align: center;
-    transition: color .5s ;
+    transition: color .5s;
 }
-.team__member4-info:hover{
+
+.team__member2-info:hover {
     color: var(--color-primary);
 }
-.team__member4-img{
+
+.team__member2-img {
     border-radius: 4px;
 }
-.member4__github{
+
+.member2__github {
     width: 20px;
     margin-top: -3.2rem;
     margin-left: -1rem;
     border-radius: 50%;
     transition: background-color 0.50s;
 }
-.member4__github:hover{
+
+.member2__github:hover {
     background-color: var(--color-gray-200);
 }
-.btn.lg{
-    display: grid;
-    
-    position:relative;
-}
-.btn__about{
-    width: 10rem;
-    height: 4.5rem;
-    text-align: center;
+
+
+.team__member3 {
+    width: 60%;
     overflow: hidden;
-    
-    background:var(--color-secondary);
+    background-color: #ccc;
+    text-align: center;
+    margin: 15px 0;
+    padding: 50px 20px 40px 20px;
+    border-radius: 8px 8px;
+    -webkit-transition: all 0.50s ease-in-out;
+    -moz-transition: all 0.50s ease-in-out;
+    -ms-transition: all 0.50s ease-in-out;
+    -o-transition: all 0.50s ease-in-out;
+    transition: all 0.50s ease-in-out;
 }
-.btn__about:hover{
+
+.team__member3:hover {
+    margin-bottom: -1rem;
+}
+
+.team__member3 h3 {
+    margin: 20px 0 1px !important;
+    color: var(--color-gray-500);
+    font-weight: 400;
+    font-size: 1.5rem;
+    -webkit-transition: all 0.50s ease-in-out;
+    -moz-transition: all 0.50s ease-in-out;
+    transition: color .5s;
+}
+
+.team__member3 h3:hover {
+    color: var(--color-primary);
+
+}
+
+.team__member3-info {
+    font-weight: 200;
+    font-size: 1rem;
+    color: #000;
+    text-align: center;
+    transition: color .5s;
+}
+
+.team__member3-info:hover {
+    color: var(--color-primary);
+}
+
+.team__member3-img {
+    border-radius: 4px;
+}
+
+.member3__github {
+    width: 20px;
+    margin-top: -3.2rem;
+    margin-left: -1rem;
+    border-radius: 50%;
+    transition: background-color 0.50s;
+}
+
+.member3__github:hover {
+    background-color: var(--color-gray-200);
+}
+
+.team__member4 {
+    width: 60%;
+    background-color: #ccc;
+    overflow: hidden;
+    text-align: center;
+    margin: 15px 0;
+    padding: 50px 20px 40px 20px;
+    border-radius: 8px 8px;
+    -webkit-transition: all 0.50s ease-in-out;
+    -moz-transition: all 0.50s ease-in-out;
+    -ms-transition: all 0.50s ease-in-out;
+    -o-transition: all 0.50s ease-in-out;
+    transition: all 0.50s ease-in-out;
+}
+
+.team__member4:hover {
+    margin-bottom: -1rem;
+}
+
+.team__member4 h3 {
+    margin: 20px 0 1px !important;
+    color: var(--color-gray-500);
+    font-weight: 400;
+    font-size: 1.5rem;
+    -webkit-transition: all 0.50s ease-in-out;
+    -moz-transition: all 0.50s ease-in-out;
+    transition: color .5s;
+}
+
+.team__member4 h3:hover {
+    color: var(--color-primary);
+
+}
+
+.team__member4-info {
+    font-weight: 200;
+    font-size: 1rem;
+    color: #000;
+    text-align: center;
+    transition: color .5s;
+}
+
+.team__member4-info:hover {
+    color: var(--color-primary);
+}
+
+.team__member4-img {
+    border-radius: 4px;
+}
+
+.member4__github {
+    width: 20px;
+    margin-top: -3.2rem;
+    margin-left: -1rem;
+    border-radius: 50%;
+    transition: background-color 0.50s;
+}
+
+.member4__github:hover {
+    background-color: var(--color-gray-200);
+}
+
+.Link__left {
+    display: inline-block;
+    width: 5.5rem;
+    margin-left: 5rem;
+    height: fit-content;
+    text-align: center;
+    border: 0;
+    border: 1px solid var(--color-primary);
+    background: var(--color-primary);
+    border-radius: 20px;
+    transition: color .5s;
+}
+
+.link {
+    color: #000;
+}
+
+
+.Link__left:hover {
+    background: var(--color-secondary)
+}
+
+.left {
+    width: 1.5rem;
+    margin-left: 2rem;
+    position: relative;
+
+}
+
+.Link__right {
+    display: inline-block;
+    width: 5.5rem;
+    margin-left: 5rem;
+    height: fit-content;
+    text-align: center;
+    border: 0;
+    border: 1px solid var(--color-primary);
+    background: var(--color-primary);
+    border-radius: 20px;
+    transition: color .5s;
+}
+
+.link {
+    color: #000;
+}
+
+
+.Link__right:hover {
     background: var(--color-gray-200);
 }
-.btn__contact{
-    width: 10rem;
-    height: 4.5rem;
-    text-align: center;
-    overflow: hidden;
-    
-    background:var(--color-primary);
+
+.rigth {
+    width: 1.5rem;
+    margin-left: 2rem;
+    position: relative;
+
 }
 
 
-@media  screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
+    .section-head {
 
-    .col-sm-6{
-        
-      display: grid;
-      margin-left: 2rem;
-        grid-template-columns: 16rem 16rem;
-        gap: 5.7rem;
-        
-        
+        height: 50%;
     }
-    
-}
-@media screen and (max-width: 678px){
-.section-head{
-    background: red;
-    height: 100%;
+
+
+    .col-sm-6 {
+       height: 50%;
+        display: grid;
+        margin-left: 5rem;
+       
+        grid-template-columns: 16rem 16rem;
+        gap: 3.5rem;
+    }
+
+
+
+    .team__ceo {
+        margin-left: 2rem;
+    }
+
+
+    .team__ceo:hover {
+        margin-bottom: -1rem;
+
+    }
+
+    .team__coo {
+        margin-left: 2rem;
+    }
+
+    .team__coo:hover {
+        margin-bottom: -1rem;
+
+    }
+
+    .team__member1 {
+        margin-left: 2rem;
+    }
+
+    .team__member1:hover {
+        margin-bottom: -1rem;
+
+    }
+
+    .team__member2 {
+        margin-left: 2cqw;
+
+    }
+
+    .team__member2:hover {
+        margin-bottom: -1rem;
+
+    }
+
+    .team__member3 {
+        margin-left: 2rem;
+    }
+
+    .team__member3:hover {
+        margin-bottom: -1rem;
+    }
+
+    .team__member4 {
+        margin-left: 2rem;
+    }
+
+    .team__member4:hover {
+        margin-bottom: -1rem;
+    }
+
+    .Link__left {
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+
+    .Link__right {
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+
+
 }
 
- .col-sm-6{
-    display: grid;
-   grid-template-columns: 1fr ;
-    gap: 4rem;
- }
- 
+@media screen and (max-width: 678px) {
+    .section-head {
+
+        height: 100%;
+    }
+
+
+    .col-sm-6 {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+    }
+
+    .team__ceo {
+        width: 37vw;
+        margin-left: 1.5rem;
+        text-align: center;
+    }
+
+    .team__ceo:hover {
+        margin-bottom: -1rem;
+
+    }
+
+    .team__coo {
+        width: 37vw;
+        margin-left: 1.5rem;
+        text-align: center;
+    }
+
+    .team__coo:hover {
+        margin-bottom: -1rem;
+
+    }
+
+    .team__member1 {
+        width: 37vw;
+        margin-left: 1.5rem;
+        text-align: center;
+    }
+
+    .team__member1:hover {
+        margin-bottom: -1rem;
+    }
+
+    .team__member2 {
+        width: 37vw;
+        margin-left: 1.5rem;
+        text-align: center;
+    }
+
+    .team__member2:hover {
+        margin-bottom: -1rem;
+    }
+
+    .team__member3 {
+        width: 37vw;
+        margin-left: 1.5rem;
+        text-align: center;
+    }
+
+    .team__member3:hover {
+        margin-bottom: -1rem;
+    }
+
+    .team__member4 {
+
+        width: 37vw;
+        margin-left: 1.5rem;
+        text-align: center;
+
+    }
+
+    .team__member4:hover {
+        margin-bottom: -1rem;
+    }
+
+    .Link__left {
+        margin-top: 2rem;
+    }
+
+    .Link__right {
+        margin-top: 2rem;
+    }
+
+
 
 }

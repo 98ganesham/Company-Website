@@ -1,8 +1,8 @@
-
 import "..//Pages/Home/home.css";
-import "../index.css";
 import Main from "../Components/images/Main.png";
 import language from "./images/technology.png";
+import right from "../Components/images/arrow-right.svg";
+import { Link } from "react-router-dom";
 
 const MainHeader = () => {
   return (
@@ -12,8 +12,8 @@ const MainHeader = () => {
           <div className="main__header-left">
             <div className="main__head">
               <h4 className="main__h4">
-               Welcome to VaroonValley Company. Its A Professional Software & Web
-          Developing Company Founded in May 2023.
+                Welcome to VaroonValley Company. Its A Professional Software &
+                Web Developing Company Founded in May 2023.
               </h4>
             </div>
             <p className="main__header-left p">
@@ -24,11 +24,9 @@ const MainHeader = () => {
             </p>
           </div>
           <div className="main__header-right">
-            <div className="main__header-circle">
-              
-                <img src={Main} alt="Main Header Image" className="image" />
-              
-            </div>
+            
+              <img src={Main} alt="Main Header Image" className="image" />
+            
           </div>
           <p className="p">
             Our full-stack web developers are at your disposal and ready to
@@ -38,8 +36,11 @@ const MainHeader = () => {
           </p>
 
           <img className="language__image" src={language} alt="language" />
-
-          
+          <div className="Link__detail">
+            <Link to="/about" className="link">
+              <img src={right} alt="right arrow" className="right" /> About 
+            </Link>
+          </div>
         </div>
       </header>
     </>

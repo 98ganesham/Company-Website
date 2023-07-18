@@ -5,6 +5,8 @@ import team4 from "../../Components/images/team4.jpg";
 import team5 from "../../Components/images/team5.jpg";
 import team6 from "../../Components/images/team6.jpg";
 import "./team.css";
+import left from '../../Components/images/arrow-left.svg';
+import right from '../../Components/images/arrow-right.svg';
 import githut from "../../Components/images/github.png";
 import { useState } from "react";
 import { Link } from "react-router-dom";
@@ -46,7 +48,7 @@ const Team = () => {
                   <p> Chief Operations Officer of varoonvalley</p>
                   <ul className="team__coo-icon">
                     <li>
-                      <a href="https://github.com" className="coo-github">
+                      <a href="https://github.com/VaroonValley" className="coo-github">
                         <img
                           src={githut}
                           alt="coo__github"
@@ -162,7 +164,16 @@ const Team = () => {
                   </ul>
                 </div>
               </div>
-             
+              <div className="Link__left">
+          <Link to="/about" className="link">
+            <img src={left} alt="left arrow" className="left" /> About 
+          </Link>
+        </div>
+        <div className="Link__right">
+          <Link to="/contact" className="link">
+            <img src={right} alt="right arrow" className="right" /> Contact
+          </Link>
+        </div>
             </div>
           </div>
         </div>

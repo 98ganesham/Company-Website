@@ -1,4 +1,7 @@
+import { Link } from "react-router-dom";
 import image from "../../Components/images/web 1.jpg";
+import left from "../../Components/images/arrow-left.svg";
+import right from "../../Components/images/arrow-right.svg";
 import "../../index.css";
 import "./about.css";
 
@@ -27,6 +30,17 @@ const About = () => {
             of technical and creative process which are necessary to develop a
             successful web sites.
           </p>
+        </div>
+
+        <div className="Link__left">
+          <Link to="/" className="link">
+            <img src={left} alt="left arrow" className="left" /> Home
+          </Link>
+        </div>
+        <div className="Link__right">
+          <Link to="/team" className="link">
+            <img src={right} alt="right arrow" className="right" /> Team
+          </Link>
         </div>
       </div>
     </div>

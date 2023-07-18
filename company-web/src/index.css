@@ -10,7 +10,7 @@
 }
 :root{
     --primary-hue: 210;
-    --gray-hue: 240;
+    --gray-hue: 280;
     --color-primary: hsl(var(--primary-hue),
     100%, 50%);
     --color-primary-variant: hsl(var(--primary-hue), 100%, 65%);
