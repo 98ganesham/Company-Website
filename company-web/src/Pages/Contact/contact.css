@@ -1,53 +1,376 @@
-.contact-container{
-    width: fit-content;
-    height: fit-content;
-    background:var(--color-gray-500);
-    display: flex;
-    border-radius: 15px;
-    margin-top:5rem;
-    margin-left: 5rem;
-    justify-content: start;
-    align-items: start;
-    transition:box-shadow .5s ;
-}
-.contact-container:hover{
-    box-shadow: 1px 1px var(--color-gray-500), -1em 0 1em var(--color-gray-500);
-}
-.contact__detail{
-    margin-top: 1rem;
-    text-align: center;
-}
-h3{
-    font-weight: 300;
-}
-input{
-    width: auto;
-    margin-top:1rem;
-    margin-bottom:1rem;
-    border: 0;
-    border-radius: 5px;
-    text-align: center;
+.contact__header {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 5fr 5fr ;
+    place-items: c;
 
 }
-.contact__mail{
-    border: 0;
+
+.contact__png {
+    width: 80vw;
+    height: auto;
+    position: relative;
+    border-radius: 14px;
+    margin-left: 2.5rem;
+    transition: box-shadow 1s;
+
+}
+
+.contact__png:hover {
+    box-shadow: 5px 5px 15px 2px var(--color-primary);
+}
+
+.contact__help {
     text-align: center;
-    width:15rem;
-    color:var(--color-gray-200)
+    color:var(--color-primary);
+    margin-top: -15rem;
+    margin-bottom: 10rem;
+    margin-left: -2.5rem;
+    font-size: 2.6rem;
+    position: absolute;
+    font-weight: 400;
+}
+
+
+.contact__wrapper {
+    width: fit-content;
+    display: grid;
+    gap: 2rem;
+    margin-left: 1rem;
+    overflow: normal;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+
+.contact__mail {
+    place-items: center;
+    line-height: 1rem;
+    border-bottom:  double var(--color-secondary)  ;
+    margin-left: 1rem;
+    text-align: start;
+}
+
+.contact__mail h2 {
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: start;
+}
+
+.contact__md {
+    margin-left: -.2rem;
+    margin-bottom: -1.2rem;
+
+
+}
+
+.contact__mail p {
+    margin-left: 1.2rem;
+    color: #fff;
+}
+
+.contact__github {
+    place-items: center;
+    margin-left: 0rem;
+    border-bottom:  double var(--color-secondary) ;
+    text-align: start;
+}
+
+.contact__github h2 {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 2rem;
+    line-height: 0;
+    font-weight: 300;
+    text-align: start;
+}
+
+.contact__github p {
+    margin-left: 1.2rem;
+    color: #fff;
+}
+
+.contact__ai {
+    margin-left: -.2rem;
+    margin-bottom: -1.7rem;
+}
+
+.contact__phone {
+    place-items: center;
+    margin-left: 0;
+    border-bottom:  double var(--color-secondary)  ;
+    text-align: start;
+}
+
+.contact__phone h2 {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 2rem;
+    line-height: 0;
+    font-weight: 300;
+    text-align: start;
+}
+
+.phone {
+    margin-left: -.2rem;
+    border-radius: 50%;
+    background: #fff;
+    border: none;
+    margin-bottom: -4.5rem;
+
+}
+
+.contact__phone p {
+    margin-top: 1.5rem;
+    margin-left: 1.2rem;
+    color: #fff;
+
+}
+
+.contact__location {
+    place-items: center;
+    margin-left: 1rem;
+    text-align: start;
+    border-bottom:double var(--color-secondary);
+    cursor: pointer;
+}
+.md {
+    margin-left: -.2rem;
+    border-radius: 50%;
+    background: #fff;
+    border: none;
+    margin-bottom: -3.5rem;
+
+}
+.contact__location p {
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    color: #fff;
+
+}
+.contact__form{
+    width: fit-content;
+    display: grid;
+    gap: 2rem;
+    margin-left: 1rem;
+    overflow: normal;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+
+}
+.contact__input{
+    margin-left: 0;
+    line-height: 2.5rem;
+    text-align: center;
+    
+}
+input{
+    margin-left:2rem;
+    border-radius: 14px;
+}
+.contact__email{
+    margin-left: 0;
+    line-height: 2.5rem;
+    text-align: center;
+    
+}
+.form__message{
+    margin-left: -1rem;
+    line-height: 2.5rem;
+    
+    text-align: center;
+}
+input{
+    text-align: center;
+}
+
+
+.contact__form p{
+    font-size: 2rem;
+    color:#ffff;
+}
+
+    
+   
+
+.contact__form button{
+    background:var(--color-gray-100);
+    border-radius:5px;
+    color:#fff;
+    cursor: pointer;
 }
 button{
-    border: 0;
-    border-radius: 4px;
-    width: 3rem;
-    margin-left: 4rem;
-    background-color: #808080;
-    height:auto;
-    font-size: 1rem;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    transition: content .5s;
+    width:5rem;
+    height:1.7rem;
+    margin-left: 7rem;
+    transition:background-color .5s;
 }
 button:hover{
-    content: '';
+    background-color:#0dcaf0;
 }
+
+
+.Link__left{
+    display: inline-block;
+    width: 5.5rem;
+    margin-left: 5rem;
+    height: fit-content;
+    text-align :center;
+    border:0;
+    border: 1px solid var(--color-primary);
+    background: var(--color-primary);
+    border-radius: 20px;
+    transition:color .5s;
+}
+.link{
+    color: #000;
+}
+
+
+.Link__left:hover{
+   background: var(--color-secondary)
+}
+    
+.left{
+    width: 1.5rem;
+    margin-left: 2rem;
+    position: relative;
+    
+}
+
+
+
+
+@media screen and (max-width: 728px) {
+    .contact__header {
+        width: fit-content;
+        height: fit-content;
+        place-content: center;
+        overflow: visible;
+        display: inline-flex;
+
+    }
+
+    .contact__png {
+        max-width: 50vw;
+        height: auto;
+        margin-left: 2rem;
+        position: relative;
+        border-radius: 10px;
+        transition: transform 1s;
+
+    }
+    .contact__help {
+        text-align: center;
+        margin-top: 1.2rem;
+        margin-left: 0rem;
+        font-size: 1.5rem;
+        position: absolute;
+        font-weight: 400;
+    }
+
+    .contact__wrapper {
+        width: auto;
+        height: auto;
+        display: inline-block;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 1.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .contact__mail {
+        place-items: center;
+        margin-left: -1rem;
+        text-align: center;
+        border-bottom: double var(--color-secondary);
+        margin-bottom: 3rem;
+    }
+
+    .contact__mail h2 {
+        margin-left: 1.5rem;
+        font-size: 2.4rem;
+        margin-bottom: -1rem;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .contact__md {
+        margin-left: -12rem;
+        margin-bottom: -1.2rem;
+
+
+    }
+
+    .contact__github {
+
+        margin-top: 2rem;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .contact__github h2 {
+        margin-left: 1.5rem;
+        font-size: 2.4rem;
+        margin-bottom: 0rem;
+        font-weight: 300;
+        text-align: center;
+
+    }
+
+    .contact__github p {
+        margin-left: 1.2rem;
+        color: #fff;
+    }
+
+    .contact__ai {
+        margin-left: -11.5rem;
+        margin-bottom: -1.7rem;
+    }
+
+    .contact__phone {
+        margin-top: -3rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .contact__phone h2 {
+        margin-left: 1.5rem;
+        font-size: 2.4rem;
+        margin-bottom: 0;
+        font-weight: 300;
+        text-align: center;
+    }
+   
+    .phone {
+        margin-left: -6.7rem;
+        margin-bottom: -4.5rem;
+
+    }
+   
+    .contact__location {
+        margin-top: 2rem;
+        text-align: center;
+        margin-bottom: 3rem;
+        cursor: pointer;
+    }
+    .md {
+        margin-left: -2rem;
+        margin-bottom: -2rem;
+    
+    
+    }
+    .contact__location p {
+        margin-left: -1rem;
+        color: #fff;
+    
+    }
+    .Link__left{
+        margin-top: 2rem;
+        margin-left: 12rem;
+
+    }
+}
+ 

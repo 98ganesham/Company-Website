@@ -10,6 +10,7 @@ import right from '../../Components/images/arrow-right.svg';
 import githut from "../../Components/images/github.png";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+
 const Team = () => {
   const [isIconShowing, setIsIconShowing] = useState(false);
   return (
@@ -35,7 +36,9 @@ const Team = () => {
                           alt="ceo__github"
                           className="ceo__github"
                           onClick={() => setIsIconShowing((prev) => !prev)}
+                          
                         />
+                        
                       </a>
                     </li>
                   </ul>
